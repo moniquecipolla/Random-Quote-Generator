@@ -13,7 +13,7 @@ project 1 - A Random Quote Generator
 
 /*
 * Array contains 7 quote objects with a quote and a source
-* Some objects have additional elements (citiation, year, & link to a Goodreads page for quoted book)
+* Some objects have additional properties (citiation, year, & link to a Goodreads page for quoted book)
 */
 const quotes = [
   {
