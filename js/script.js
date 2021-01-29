@@ -71,8 +71,9 @@ function getRandomQuote(arr) {
 }
 
 /*
-* randomColorValue variable holds a random value for a color, to be applied to the page background.
-* getRandomColor function creates the RGB color value and returns that random color.
+* randomColorValue variable holds a random value for a color using Math.random function.
+* getRandomColor function creates the RGB color value
+made up of three values and returns that random color.
 * Adpated from https://teamtreehouse.com/library/the-refactor-challenge-one-solution.
 */
 const randomColorValue = () => Math.floor(Math.random() * 256);
