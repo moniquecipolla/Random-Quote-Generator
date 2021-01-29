@@ -52,10 +52,10 @@ const quotes = [
   }
 ];
 
-// Gets a random number from 0 to the length of the given array to return a random object from the array. 
-function getRandomQuote(arr) {
-  let randomNumber = Math.floor(Math.random() * arr.length);
-  return arr[randomNumber];
+// Gets a random number from 0 to the length of the given quotes array to return a random object from the array. 
+function getRandomQuote(quotes) {
+  let randomNumber = Math.floor(Math.random() * quotes.length);
+  return quotes[randomNumber];
 }
 
 /*
