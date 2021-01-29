@@ -24,7 +24,7 @@ const quotes = [
   {
     quote: 'Better weird than dead.',
     source: 'Marshall Teller',
-    citation: 'Eerie Indiana',
+    citation: 'Eerie Indiana'
   },
   {
     quote: 'As the image of myself becomes sharper in my brain and more precious, I feel less afraid someone else will erase me by denying me love.',
@@ -98,7 +98,7 @@ function printQuote() {
   document.getElementById('quote-box').innerHTML = html;
 }
 
-// setInterval method runs printQuote function every 6000 ms/6 s.
+// setInterval method automatically runs printQuote function every 6000 ms/6 s.
 setInterval(printQuote, 6000);
 
 
