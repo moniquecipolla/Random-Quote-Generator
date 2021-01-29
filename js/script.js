@@ -115,8 +115,6 @@ function printQuote() {
 // setInterval method runs printQuote function every 6000 ms/6 s.
 setInterval(printQuote, 6000);
 
-//console.log(printQuote());
-
 /***
  * click event listener for the print quote button
  * DO NOT CHANGE THE CODE BELOW!!
