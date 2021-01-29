@@ -73,6 +73,7 @@ function getRandomQuote(arr) {
 /*
 * randomColorValue variable holds a random value for an RGB color, to be applied to the page background.
 * getRandomColor function creates the RGB color value and returns that random color.
+* Adpated from https://teamtreehouse.com/library/the-refactor-challenge-one-solution.
 */
 const randomColorValue = () => Math.floor(Math.random() * 256);
 
@@ -86,11 +87,11 @@ function getRandomColor(value) {
 ***/
 
 /*
-* printQuote function prints a random object from the quotes array
-using the getRandomQuote function.
-* function sets the value of the html for the quote and the source,
+* printQuote function:
+* prints a random object from the quotes array using the getRandomQuote function.
+* sets the value of the html for the quote and the source,
 as well as the citation, year, and link if applicable.
-* function also sets the background color to change to a random RGB color when 
+* sets the background color to change to a random RGB color when 
 the quote changes using the getRandomColor function.
 */
 function printQuote() {
