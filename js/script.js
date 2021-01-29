@@ -3,14 +3,6 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// For assistance: 
-  // Check the "Project Resources" section of the project instructions
-  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
-
-/*** 
- * `quotes` array 
-***/
-
 /*
 * Array contains 7 quote objects with a quote and a source
 * Some objects have additional properties (citiation, year, & link to a Goodreads page for quoted book)
@@ -60,10 +52,6 @@ const quotes = [
   }
 ];
 
-/***
- * `getRandomQuote` function
-***/
-
 // Gets a random number from 0 to the length of the given array to return a random object from the array. 
 function getRandomQuote(arr) {
   let randomNumber = Math.floor(Math.random() * arr.length);
@@ -83,9 +71,6 @@ function getRandomColor(value) {
     return randomColor;
   }
 
-/***
- * `printQuote` function
-***/
 
 /*
 * printQuote function:
@@ -116,9 +101,5 @@ function printQuote() {
 // setInterval method runs printQuote function every 6000 ms/6 s.
 setInterval(printQuote, 6000);
 
-/***
- * click event listener for the print quote button
- * DO NOT CHANGE THE CODE BELOW!!
-***/
 
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
