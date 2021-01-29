@@ -51,7 +51,7 @@ const quotes = [
   {
     quote: 'Cut. It. Out.',
     source: 'Uncle Joey',
-    citation: 'Full House',
+    citation: 'Full House'
   },
   {
     quote: 'My log does not judge.',
